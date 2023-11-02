@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000626
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,7 +11,7 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Blauvelt, Lon (2023) Neural Organoid Ephys Trace (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000626/draft
+  DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: lblauvel@ucsc.edu
@@ -20,17 +21,38 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-09-06T20:33:29.251788+00:00'
+datePublished: '2023-11-02T18:49:35.161614+00:00'
 description: Captured originally with a MaxWell BioSystems CMOS-based High-Density
   Microelectrode Array.
+doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000626/draft
 identifier: DANDI:000626
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000626/versions/draft/assets/
 name: Neural Organoid Ephys Trace
+protocol: []
+publishedBy:
+  endDate: '2023-11-02T18:49:35.161614+00:00'
+  id: urn:uuid:0491fc86-1599-4be5-9831-63451b9382f4
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-11-02T18:49:35.161614+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2d393ff0-9d03-46e5-b1e1-fe8c4a351bd0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget:
+- Neural Organoid
 url: https://dandiarchive.org/dandiset/000626/draft
 version: draft
+wasGeneratedBy: []
